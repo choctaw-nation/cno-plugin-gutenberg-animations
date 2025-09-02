@@ -15,7 +15,7 @@ export const addAnimationControls = createHigherOrderComponent(
 
 			return (
 				<>
-					<BlockEdit { ...{ ...props } } />
+					<BlockEdit { ...props } />
 					<InspectorControls>
 						<PanelBody title="Animation Settings">
 							<SelectControl

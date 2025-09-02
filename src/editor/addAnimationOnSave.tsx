@@ -8,7 +8,7 @@ export default function addAnimationOnSave(
 ) {
 	const { animationEffect, animationMode } = attributes;
 
-	if ( animationEffect ) {
+	if ( animationEffect && 'none' !== animationEffect ) {
 		extraProps[ 'data-animation' ] = animationEffect;
 		extraProps[ 'data-animation-mode' ] = animationMode;
 	}
