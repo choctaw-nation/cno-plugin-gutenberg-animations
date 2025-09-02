@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="3.13.2">
+<file name="/Users/1030903/Local Sites/labor-day-festival/app/public/wp-content/plugins/cno-gutenberg-animations/cno-gutenberg-animations.php">
+ <error line="30" column="78" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+</file>
+</checkstyle>
+
