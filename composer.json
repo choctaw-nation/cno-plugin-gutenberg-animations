@@ -1,0 +1,18 @@
+{
+	"name": "choctaw-nation/cno-plugin-gutenberg-animations",
+	"description": "A WordPress plugin that adds animations to the Gutenberg editor.",
+	"type": "project",
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true,
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"scripts": {
+		"phpcs": "phpcs --report-full --report-checkstyle=./phpcs-report.xml inc/ cno-gutenberg-animations.php",
+		"phpcbf": "phpcbf inc/ cno-gutenberg-animations.php"
+	},
+	"require-dev": {
+		"wp-coding-standards/wpcs": "*"
+	}
+}
